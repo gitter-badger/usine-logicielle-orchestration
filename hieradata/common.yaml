@@ -1,0 +1,4 @@
+---
+db_user: gitlab
+db_pass: secretpassword
+db_name: gitlabhq_produ1ction
