@@ -2,6 +2,8 @@
 
 1- git clone https://github.com/rodesousa/usine-logicielle-orchestration.git
 
-2- puppet module install garethr/docker
+2- usine-logicielle-orchestration
 
-3- puppet apply site.pp --modulepath ~/.puppet/modules/ --hiera_config=hiera.yaml
+3- puppet module install garethr/docker
+
+4- puppet apply site.pp --modulepath ~/.puppet/modules/ --hiera_config=hiera.yaml
