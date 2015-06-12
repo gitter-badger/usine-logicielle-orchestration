@@ -4,8 +4,6 @@
 
 2- cd usine-logicielle-orchestration
 
-3- Dans le fichier hiera.yaml, remplacer "HOSTNAME" par le hostname de la machine
+3- puppet module install garethr/docker
 
-4- puppet module install garethr/docker
-
-5- puppet apply site.pp --modulepath ~/.puppet/modules/ --hiera_config=hiera.yaml
+4- puppet apply site.pp --modulepath ~/.puppet/modules/ --hiera_config=hiera.yaml
