@@ -1,4 +1,4 @@
-node 'HOSTNAME'{
+node default{
 
 	docker::run { 'postgresql':
   		image	=> 'sameersbn/postgresql:9.4',
